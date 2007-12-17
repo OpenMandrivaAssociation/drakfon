@@ -10,7 +10,6 @@ Source0:	%{name}-%{version}.tar.bz2
 License:	GPL	
 Group:		System/Configuration/Networking
 Url:		http://fon.com
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:      noarch
 
 %description
