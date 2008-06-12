@@ -36,11 +36,15 @@ install -D %{name}.desktop %{buildroot}%{_datadir}/applications/%{name}.desktop
 %clean
 rm -rf %{buildroot}
 
+%if %mdkversion < 200900
 %post
 %update_menus
+%endif
 
+%if %mdkversion < 200900
 %postun
 %clean_menus
+%endif
 
 %files -f %{name}.lang
 %defattr(-,root,root)
