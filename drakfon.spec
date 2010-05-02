@@ -30,7 +30,7 @@ install -d %{buildroot}%{_datadir}/%{name}/firmwares
 install -m 644 FONbasic-* %{buildroot}%{_datadir}/%{name}/firmwares
 install -d %{buildroot}%{_iconsdir}
 install -m 644 FON*.png %{buildroot}%{_iconsdir}
-install -D %{name}.desktop %{buildroot}%{_datadir}/applications/%{name}.desktop
+install -m 644 -D %{name}.desktop %{buildroot}%{_datadir}/applications/%{name}.desktop
 %find_lang %{name}
 
 %clean
