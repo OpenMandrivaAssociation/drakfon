@@ -1,6 +1,6 @@
 %define name drakfon
 %define version 0.6
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary:	Install FON firmwares in wireless routers
 Name:		%{name}
