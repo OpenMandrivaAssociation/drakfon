@@ -56,3 +56,35 @@ rm -rf %{buildroot}
 %{_datadir}/applications/%{name}.desktop
 
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.6-5mdv2011.0
++ Revision: 610274
+- rebuild
+
+* Sun May 02 2010 Funda Wang <fwang@mandriva.org> 0.6-4mdv2010.1
++ Revision: 541554
+- fix perm of desktop file
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0.6-4mdv2010.0
++ Revision: 428339
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.6-3mdv2009.0
++ Revision: 244526
+- rebuild
+- fix no-buildroot-tag
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0.6-1mdv2008.1
++ Revision: 124214
+- kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Apr 03 2007 Olivier Blin <oblin@mandriva.com> 0.6-1mdv2007.1
++ Revision: 150345
+- Import drakfon
+
