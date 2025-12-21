@@ -13,6 +13,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url:		https://fon.com
 BuildArch:      noarch
 
+BuildRequires:	make
 %description
 Tool to install FON based firmwares in wireless routers
 
